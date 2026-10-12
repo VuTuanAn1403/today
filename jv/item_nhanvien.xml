@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginStart="2dp"
+    android:layout_marginEnd="2dp"
+    android:padding="12dp"
+    android:background="@drawable/bg_item_nhanvien">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/txtlistma"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mã NV: NV01"
+            android:textStyle="bold"
+            android:textColor="@color/primary_dark"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtlistgioitinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giới tính: Nam"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_sub"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:background="@drawable/bg_input" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtlisgt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Họ tên: Nguyễn Văn A"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_main" />
+
+    <TextView
+        android:id="@+id/txtlistngaysinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Ngày sinh: 01/01/2000"
+        android:textSize="14sp"
+        android:textColor="@color/text_sub" />
+
+</LinearLayout>

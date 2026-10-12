@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/txtTenTuoiNgayHen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Văn A - 20 - Thứ 2"
+        android:textStyle="bold"
+        android:textColor="@color/primary_dark"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtLinhVuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Lĩnh vực: Lập trình"
+        android:textSize="14sp"
+        android:textColor="@color/text_main" />
+
+</LinearLayout>
